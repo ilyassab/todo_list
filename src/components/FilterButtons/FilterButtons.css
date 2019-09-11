@@ -1,0 +1,35 @@
+.filterbuttons_buttongroup {
+    margin-left: 5px;
+}
+
+.filterbuttons_button {
+    cursor: pointer;
+    padding: 5px;
+    color: grey;
+    background: white;
+    border: 1px solid #cecece;
+}
+
+.filterbuttons_button:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+.filterbuttons_button:active {
+    background: #00bfff;
+    color: white;
+}
+
+.filterbuttons_first {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.filterbuttons_third {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active {
+    background: #6b18ee;
+    color: white;
+}

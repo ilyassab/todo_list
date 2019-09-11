@@ -1,0 +1,9 @@
+.search_searchplace {
+    margin-left: 10px;
+}
+
+.search_searchplace input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}

@@ -1,0 +1,21 @@
+.itemadder {
+    margin-left: 5px;
+}
+
+.itemadder_button {
+    color: grey;
+    background: white;
+    border: 1px solid #cecece;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itemadder_button:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+.itemadder_button:active {
+    background: grey;
+    color: white;
+}

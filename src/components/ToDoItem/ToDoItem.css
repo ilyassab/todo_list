@@ -1,0 +1,51 @@
+.todoitem {
+    line-height: 35px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid #cecece;
+    width: 250px;
+
+    white-space: pre-line;
+    overflow:hidden;
+    word-wrap:break-word;
+}
+
+.todoitem_text {
+    font-size: 20px;
+    margin-left: 10px;
+    flex:1;
+    width: 50px;
+}
+
+.todoitem_text span {
+    cursor:pointer;
+}
+
+.todoitem_button {
+    cursor: pointer;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    color: red;
+    border-radius: 5px;
+}
+
+.todoitem_trash {
+    color:red;
+    border: 1px solid red;
+    margin-right: 5px;
+}
+
+.todoitem_important {
+    color:green;
+    border: 1px solid green;
+}
+
+.important {
+    font-size: 20px;
+    color: #bb2222;
+}
+
+.done {
+    text-decoration: line-through;
+}
